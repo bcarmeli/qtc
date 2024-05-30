@@ -1,6 +1,5 @@
 import torch
 
-
 class QuantizeFunction(torch.autograd.Function):
     @staticmethod
     def _quantize(message, scale, zero_point, dtype):
