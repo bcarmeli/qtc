@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 import torch
 from torch import Tensor
 
@@ -23,7 +19,6 @@ def normalize(tensor: Tensor):
     return tensor
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     batch_size = 2
     embedding_len = 5
