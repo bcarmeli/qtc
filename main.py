@@ -19,7 +19,6 @@ def normalize(tensor: Tensor):
     return tensor
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     batch_size = 2
     embedding_len = 5
